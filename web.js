@@ -12,7 +12,7 @@ if (fs.existsSync( __dirname + '/../certificates/live/carbuzltd.com' )) {
   var certificate = fs.readFileSync(__dirname + '/../certificates/live/carbuzltd.com/cert.pem', 'utf8');
   var credentials = {key: privateKey, cert: certificate};
   var httpsServer = https.createServer(credentials, app);
-  httpsServer.listen(8443);
+  httpsServer.listen(443);
   //var http2Server = http2.createSecureServer(credentials, app);
   //http2Server.listen(8443);
 } else {
