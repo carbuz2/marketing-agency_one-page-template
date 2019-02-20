@@ -14,7 +14,7 @@ if (fs.existsSync( __dirname + '/../certificates/live/carbuzltd.com' )) {
   //var httpsServer = https.createServer(credentials, app);
   //httpsServer.listen(8443);
   var http2Server = http2.createSecureServer(credentials, app);
-  httpsServer.listen(8080);
+  http2Server.listen(8080);
 } else {
   var httpServer = http.createServer(app);
   httpServer.listen(9223);
