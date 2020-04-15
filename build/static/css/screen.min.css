@@ -305,12 +305,52 @@ a:hover {
 	content: "\e802";
 }
 
-.icon_research:before {
-	content: "\e80b";
+.icon_briefcase-1:before {
+	content: "\e80d";
 }
 
-.icon_strategy:before {
-	content: "\e807";
+.icon_basket-1:before {
+	content: "\e80f";
+}
+
+.icon_chart-pie:before {
+	content: "\f200";
+}
+
+.icon_file-pdf:before {
+	content: "\f1c1";
+}
+
+.icon_bank:before {
+	content: "\f19c";
+}
+
+.icon_database:before {
+	content: "\f1c0";
+}
+
+.icon_chart-area:before {
+	content: "\f1fe";
+}
+
+.icon_chart-line-1:before {
+	content: "\f201";
+}
+
+.icon_export:before {
+	content: "\e815";
+}
+
+.icon_mail:before {
+	content: "\e810";
+}
+
+.icon_menu:before {
+	content: "\f0c9";
+}
+
+.icon_research:before {
+	content: "\e80b";
 }
 
 .icon_improve:before {
@@ -327,14 +367,6 @@ a:hover {
 
 .icon_support:before {
 	content: "\e80e";
-}
-
-.icon_develop:before {
-	content: "\e808";
-}
-
-.icon_deploy:before {
-	content: "\e80d";
 }
 
 .icon_deliver:before {
@@ -366,15 +398,11 @@ a:hover {
 }
 
 .icon_in:before {
-	content: "\e815";
+	content: "\e82b";
 }
 
 .icon_rss:before {
 	content: "\e816";
-}
-
-.icon_mail:before {
-	content: "\e800";
 }
 
 .icon_location:before {

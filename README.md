@@ -1,5 +1,9 @@
 # Marketing Agency one page template - ARCHIVED
 
+http://fontello.com/
+change save home.html as index.html
+
+
 Flat and responsive website template, designed and coded by [Maxim Orlov](https://github.com/orlovmax). 
 
 Based on the [Portfolio one page template](https://github.com/website-templates/portfolio_one-page-template)
