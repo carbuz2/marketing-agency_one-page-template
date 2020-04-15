@@ -4,11 +4,11 @@
         "title": "Carbuz Ltd",
         "titleDelim": " | ",
         "description": "Porfolio Management Software Solutions",
-        "keywords": "finance, portfolio management, reports, statistics, carbuz, carbuzltd, oms, operation, management,o.m.s",
+        "keywords": "finance, portfolio management, reports, statistics, carbuz, carbuzltd, oms, operation, management, o.m.s",
         "url": "https://carbuzltd.com"
     },
     "modules": {
-        "googleFonts": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&subset=latin,cyrillic",
+        "googleFonts": "https://fonts.googleapis.com/css?family=Roboto%7CMontserrat%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&subset=latin,cyrillic",
         "bodyJs": true,
         "headJs": true,
         "customCss": true,
