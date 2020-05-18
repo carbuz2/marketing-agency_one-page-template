@@ -10,7 +10,7 @@ mixin head-src()
     //- Google fonts
     if config.modules.googleFonts
         link(href= config.modules.googleFonts rel="stylesheet" type="text/css")
-
+    
     //- Main stylesheet
     link(rel="stylesheet", href="static/css/screen.min.css")
 
@@ -26,6 +26,8 @@ mixin head-src()
 
     //- SCRIPTS
     //- Head javascript
+    if config.modules.animejs
+        script(src= config.modules.animejs)
     if config.modules.headJs
         script(src="static/js/head.min.js")
 

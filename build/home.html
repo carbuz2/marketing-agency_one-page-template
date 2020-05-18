@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home | Carbuz Ltd</title>
+    <!--title = config.site.title;-->
+    <title>Carbuz Ltd</title>
     <meta name="description" content="Page-specific description">
     <meta name="keywords" content="Page-specific keywords">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
     <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto%7CMontserrat%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:200extra-light%7CRoboto%7CMontserrat%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="static/css/screen.min.css">
     <link rel="stylesheet" href="static/css/custom.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <script src="static/js/head.min.js"></script>
   </head>
   <body>
@@ -24,8 +26,18 @@
       <div class="home-section__bg"></div>
       <div class="home-section__overlay">
         <div class="container">
+          <div class="toolbar">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#projects">Project</a></li>
+              <li><a href="#contacts">Contacts</a></li>
+            </ul>
+          </div>
           <header class="home-section__header"><!-- p.home-section__header-label We Are -->
-            <h1>Carbuz Ltd</h1>
+            <h1 class="ml3">CARBUZ LTD</h1>
             <h2>Risk Management and Operations Portfolio Management Solution</h2>
           </header>
         </div>
@@ -39,11 +51,11 @@
             <h2>Web Applications for portfolio management</h2>
           </header>
           <div class="about-section__card-info">
-            <p>Our asset management software will support you in your daily basis tasks such as asset and portfolio management, automatic flows with custodian banks and brokers, back and middle office activities, risk management, and report generation.</p>
+            <p>Our asset management software will help you seamlessly and effortlessly running daily basis tasks such as asset and portfolio management, as it automates workflows of custodian banks and brokers, back and middle office activities, risk management, as well as report generation.</p>
             <blockquote>
-              <p>We developed a web application that your team can run on any device (from pc to tablet and smartphone).</p>
+              <p>Our web application is perfectly optimised for cross platform usage so that your team can run it on any device (computers tablets and smartphones)</p>
             </blockquote>
-            <p>Your team will use the same application (with the possibility to set different permissions for each element of team) using a unique database, saving time and money.</p>
+            <p>You can set up permission levels for each team member or department for access and they can still use the samedatabase, saving time and money.</p>
           </div>
         </div>
       </div>
@@ -59,35 +71,35 @@
           <ul class="services services_advisory">
             <li class="services__item icon icon_briefcase-1">
               <h4>Transactions</h4>
-              <p>Save all transactions into the system through an excel with pre-established fields or using custom files (even pdf!) provided directly from your broker or your bank. If you need, you can manually enter the details of a transaction. The software allows the calculation of commissions of each transaction as well as taxes and accrued interests. The inserted transactions can then be filtered by date / entry field in order to facilitate their management.</p>
+              <p>Save all transactions in the system through an excel with pre-established fields or using custom files (even pdf!) provided directly from your broker or your bank. If you need, you can manually enter details of a transaction. The software allows calculating commissions of each transaction as well as taxes and accrued interests. The inserted transactions can then be filtered by date / entry field for easy management.</p>
             </li>
             <li class="services__item icon icon_basket-1">
               <h4>Orders</h4>
-              <p>As for transactions, we have a register where you can save all your orders. Orders can be imported manually, by an excel uploaded by the user (even attached to a predefined mail). This module provides for the possibility of sending orders - by mail or fax - to brokers. In addition, there is a function to reconcile orders with the confirmations (in pdf, text or excel format) received from the broker or bank.</p>
+              <p>As for transactions, we have a registry where you can save all your orders. Orders can be imported manually, by uploading excel files by the the user (even attached to a predefined mail). This module makes it possible to send orders - by mail or fax - to brokers. In addition, there is a function to reconcile orders with the confirmations (in pdf, text or excel format) received from the broker or bank.</p>
             </li>
             <li class="services__item icon icon_file-pdf">
               <h4>Reports</h4>
-              <p>Create your pdf custom report, with your logo selecting all the tables and the charts you want to plot! Or - if you prefer an excel - you can select and rearrange all the columns you want to export for any provided table. Create a good looking report with the needed information has never been so easy! </p>
+              <p>Create custom pdf reports, with your logo including all tables and charts you want to plot! Or - if you prefer an excel file - you can select and rearrange all the columns you want to export for any given table. Creating a professional looking report with essential information has never been so easy!</p>
             </li>
           </ul>
           <ul class="services services_pm">
             <li class="services__item icon icon_bank">
               <h4>Positions</h4>
-              <p>The Software calculates the portfolio positions resulting from all the transactions entered by the managers. Additionally, we provide a specific report highlighting any differences between the official bank position at a certain date, on the one hand, and the position registered in the software, on the other. Through this module it is possible to check ex-post that the selected limits are respected (crucial task for UCITS funds for example).</p>
+              <p>The Software calculates aggregate portfolio positions resulting from individual or batch transactions as entered by managers. Additionally, it generates a specific report highlighting any differences between the official broker or bank position at a certain date on one hand, and the position registered in the software, on the other. Through this module it is possible to check ex-post whether selected limits are respected (a crucial task for UCITS funds for example).</p>
             </li>
             <li class="services__item icon icon_chart-pie">
               <h4>Risk Management</h4>
-              <p>Check all that your current positions (ex post control) or your orders (ex-ante control) respect the limits you selected.</p>
+              <p>Check all of your current positions (ex post control) and your orders (ex-ante control) ensuring that the limits you selected are respected.</p>
             </li>
             <li class="services__item icon icon_support">
               <h4>And much more...</h4>
-              <p>The platform provide many other functionalities: you can schedule tasks (like for example sending custom reports to certain mail at a selected hours), restore records that you delete by mistake, present interactive charts to your clients, generate invoices, find selected assets in all the portfolios, associate file to a particular entity (clients, brokers, trades, orders, etc)... and much more! </p>
+              <p>The platform has many more useful functions: you can schedule tasks (such as sending custom reports to certain email addresses at a selected time), restore records that were deleted by mistake, present interactive charts to your clients, generate invoices, find selected assets in all portfolios, associate files to particular entities (clients, brokers, trades, orders, etc)... and much more!</p>
             </li>
           </ul>
           <div class="advantages">
             <h2>Why Choose Us?</h2>
             <blockquote>
-              <p>We provide an effective affordable software solution for managing private portfolios or funds. Our product is ideal to support asset managers and advisors in all their most important activities. It works not only for desktop but also for tablets and smartphones. Additionally, the product can be easely customized according to your needs!</p>
+              <p>We provide an effective affordable software solution for managing private portfolios or funds. Our product is ideal in supporting asset managers and advisors in all of their most important tasks. It works not only on computers but also on tablets and smartphones seamlessly. Additionally, the product can be easily customised according to your needs!</p>
             </blockquote>
           </div>
         </div>
@@ -144,28 +156,28 @@
         <div class="grid-container">
           <div class="projects">
             <figure class="projects__item"><img src="static/images/projects/1.jpg" alt="Order Register">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Order Register</a></figcaption>
+              <figcaption><a href="static/images/projects/1.jpg">Order Register</a></figcaption>
             </figure>
-            <figure class="projects__item"><img src="static/images/projects/2.jpg" alt="Order / Position limit check">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Order / Position limit check</a></figcaption>
+            <figure class="projects__item"><img src="static/images/projects/2.jpg" alt="Order / Position limit check" rel="nofollow">
+              <figcaption><a href="static/images/projects/2.jpg" rel="nofollow">Order / Position limit check</a></figcaption>
             </figure>
             <figure class="projects__item"><img src="static/images/projects/5.jpg" alt="Portfolio view">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Portfolio view</a></figcaption>
+              <figcaption><a href="static/images/projects/5.jpg" rel="nofollow">Portfolio view</a></figcaption>
             </figure>
             <figure class="projects__item"><img src="static/images/projects/6.jpg" alt="It works on mobile devices!">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">It works on mobile devices!</a></figcaption>
+              <figcaption><a href="static/images/projects/6.jpg" rel="nofollow">It works on mobile devices!</a></figcaption>
             </figure>
             <figure class="projects__item"><img src="static/images/projects/3.jpg" alt="Drag and drop your file to import your data">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Drag and drop your file to import your data</a></figcaption>
+              <figcaption><a href="static/images/projects/3.jpg" rel="nofollow">Drag and drop your file to import your data</a></figcaption>
             </figure>
             <figure class="projects__item"><img src="static/images/projects/4.jpg" alt="Create email with the data you need directly in the platform!">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Create email with the data you need directly in the platform!</a></figcaption>
+              <figcaption><a href="static/images/projects/4.jpg" rel="nofollow">Create email with the data you need directly in the platform!</a></figcaption>
             </figure>
             <figure class="projects__item"><img src="static/images/projects/7.jpg" alt="Generate gorgeous reports!">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Generate gorgeous reports!</a></figcaption>
+              <figcaption><a href="static/images/projects/7.jpg" rel="nofollow">Generate gorgeous reports!</a></figcaption>
             </figure>
             <figure class="projects__item"><img src="static/images/projects/8.jpg" alt="Enjoy interactive charts!">
-              <figcaption><a class="icon icon_link" href="#" rel="nofollow">Enjoy interactive charts!</a></figcaption>
+              <figcaption><a href="static/images/projects/8.jpg" rel="nofollow">Enjoy interactive charts!</a></figcaption>
             </figure>
           </div>
         </div>
@@ -292,8 +304,10 @@
                 <p>Do you need a demo? --></p>
               </div>
               <div class="contact-info__vcard vcard">
-                <h4 class="fn org">Carbuz Ltd</h4><!-- p.role.title Lorem ipsum dolor sit amet -->
-                <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span class="country-name">United Kingdom</span>,&nbsp;<span class="locality">London</span>,&nbsp;<span class="address">N1 8TN</span></a></p>
+                <h4 class="fn org">Carbuz Ltd</h4>
+                <p class="icon icon_location">
+                  <p>4 Rawreth Walk, N1 8TN, London, UK </p><!-- a.adr.js-anchor(href="#gmap")<span class="country-name">United Kingdom</span>,&nbsp;<span class="locality">London</span>,&nbsp;<span class="address">N1 8TN--></span>
+                </p>
                 <p class="icon icon_mail"><a class="email" href="mailto:info@carbuzltd.com">info@carbuzltd.com</a></p><!-- p.icon.icon_phone<a class="email" href="tel:00447557446765">+44 (0)7557 446765 --></a>
               </div><!-- ul.contact-info__social
               <li><a class="icon icon_fb" rel="nofollow">I'm on Facebook</a></li>
@@ -311,7 +325,7 @@
     <!-- Footer-->
     <footer class="main-footer">
       <div class="container">
-        <p class="main-footer__copyright">&copy;&nbsp;<span>Carbuz Ltd</span></p><a class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
+        <p class="main-footer__copyright">&copy;&nbsp;<span>Carbuz Ltd</span></p><a class="main-footer__gotop js-anchor" href="#home">To top!</a>
       </div>
     </footer>
     <script src="static/js/body.min.js"></script>

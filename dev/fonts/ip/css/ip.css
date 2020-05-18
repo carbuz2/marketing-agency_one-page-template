@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'ip';
-  src: url('../font/ip.eot?10581961');
-  src: url('../font/ip.eot?10581961#iefix') format('embedded-opentype'),
-       url('../font/ip.woff2?10581961') format('woff2'),
-       url('../font/ip.woff?10581961') format('woff'),
-       url('../font/ip.ttf?10581961') format('truetype'),
-       url('../font/ip.svg?10581961#ip') format('svg');
+  src: url('../font/ip.eot?79775715');
+  src: url('../font/ip.eot?79775715#iefix') format('embedded-opentype'),
+       url('../font/ip.woff2?79775715') format('woff2'),
+       url('../font/ip.woff?79775715') format('woff'),
+       url('../font/ip.ttf?79775715') format('truetype'),
+       url('../font/ip.svg?79775715#ip') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'ip';
-    src: url('../font/ip.svg?10581961#ip') format('svg');
+    src: url('../font/ip.svg?79775715#ip') format('svg');
   }
 }
 */

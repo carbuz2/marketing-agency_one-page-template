@@ -7,3 +7,4 @@
 
 // Google map disabled by default because of empty API key
 // It is still available at lib/gmap.js
+

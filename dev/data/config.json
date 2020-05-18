@@ -8,7 +8,8 @@
         "url": "https://carbuzltd.com"
     },
     "modules": {
-        "googleFonts": "https://fonts.googleapis.com/css?family=Roboto%7CMontserrat%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&subset=latin,cyrillic",
+        "googleFonts": "https://fonts.googleapis.com/css?family=Work+Sans:200extra-light%7CRoboto%7CMontserrat%7COpen+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&subset=latin,cyrillic",
+        "animejs": "https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js",
         "bodyJs": true,
         "headJs": true,
         "customCss": true,
